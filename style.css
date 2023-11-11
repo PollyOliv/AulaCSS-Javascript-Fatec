@@ -1,0 +1,58 @@
+p{
+
+    background-color: blueviolet;
+}
+
+.block_element{
+    display: block;
+    background-color: aquamarine;
+}
+
+.inline_element{
+
+    display: block;
+    background-color: darkgreen;
+}
+
+.inline_block_element{
+
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: fuchsia;
+    margin-right: 10px;
+}
+
+#souID{
+
+    background-color: coral;
+    margin: 2% 2% 2% 2%;
+}
+
+.souClass{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+    background-color: aqua;
+}
+
+.flex-container-start{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-container-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-container-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-around{
+    display: flex;
+    justify-content: space-around;
+}
