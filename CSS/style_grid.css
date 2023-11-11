@@ -1,0 +1,57 @@
+/* grid css */
+
+.item{
+    background-color: aquamarine;
+ }
+ 
+ .container {
+    display: grid;
+ }
+
+ .container_collumns{
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: 200px 200px;
+ }
+
+ .container_collumns_fr{
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: 200px 1fr;
+ }
+
+ .container_collumns_row{
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 50px;
+ }
+
+ .header{
+    grid-area: header;
+    background-color: beige;
+ }
+
+ .sidenav{
+    grid-area: sidenav;
+    background-color: brown;
+ }
+
+ .main {
+    grid-area: main;
+ }
+
+ .footer{
+    grid-area: footer;
+    background-color: coral;
+ }
+
+ .container_area{
+    display: grid ;
+    margin-top: 2%;
+    grid-template-areas: "header header " "sidenav main" "footer footer ";
+    
+    grid-template-rows: 100px 100px 100px;
+    width: 100%;
+
+ }

@@ -1,59 +1,134 @@
-p{
 
-    background-color: blueviolet;
+nav{
+    font-size: 12px;
 }
 
 .block_element{
     display: block;
-    background-color: aquamarine;
+    background-color: lightblue;
 }
 
 .inline_element{
-
     display: block;
-    background-color: darkgreen;
+    background-color: lightgreen;
 }
 
 .inline_block_element{
-
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    background-color: fuchsia;
-    margin-right: 10px;
+   display: inline-block;
+   width: 200px;
+   height: 100px;
+   background-color: lightcoral;
+   margin-right: 10px;
 }
 
-#souID{
 
-    background-color: coral;
+
+#souID {
     margin: 2% 2% 2% 2%;
+  
+    background-color: yellow;
 }
 
-.souClass{
-
+.souClass {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 5%;
-    background-color: aqua;
+    background-color: chocolate;
 }
+
+
 
 .flex-container-start{
     display: flex;
     justify-content: flex-start;
+    background-color: aquamarine;
 }
+
+
 
 .flex-container-end{
     display: flex;
     justify-content: flex-end;
+    background-color: aquamarine;
 }
 
 .flex-container-center{
     display: flex;
     justify-content: center;
+    background-color: aquamarine;
 }
 
 .flex-container-around{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
+    background-color: aquamarine;
 }
 
+.flex-container-between{
+    display: flex;
+    justify-content:space-between;
+    background-color: aquamarine;
+}
+
+.flex-container-start-vert{
+   display: flex;
+   align-items: start;
+   height: 150px;
+   background-color: aquamarine;
+}
+
+.flex-container-end-vert{
+    display: flex;
+    align-items: end;
+     height: 150px;
+     background-color: aquamarine;
+ }
+
+ .flex-container-est-vert{
+    display: flex;
+    align-items: stretch;
+     height: 150px;
+     background-color: aquamarine;
+ }
+
+ .flex-container-center-vert{
+    display: flex;
+    align-items: center;
+     height: 150px;
+     background-color: aquamarine;
+ }
+/* Aula 11 - media queries */
+body{
+    font-size: 20px;
+
+}
+
+ @media only screen and (max-width:600px) {
+    body{
+        font-size:10px;
+        background-color: brown;
+        color: white;
+    }
+ }
+
+ @media only screen and (min-width:1025px){
+    body{
+        font-size:32px;
+        background-color: cornflowerblue;
+        color: white;
+    }
+ }
+
+ @media only screen and (min-width:601px) and (max-width:1024px){
+    body{
+        font-size:18px;
+        background-color: coral;
+        color: white;
+    }
+ }
+
+ @media print {
+    body{
+        background-color:dimgray
+    }
+ }
