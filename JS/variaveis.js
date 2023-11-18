@@ -59,3 +59,4 @@ function tiposVariaveis(){
     console.log(sem_valor)
     console.log(aluno)
 }
+
